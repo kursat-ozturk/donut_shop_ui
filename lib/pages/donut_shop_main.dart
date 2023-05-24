@@ -1,3 +1,4 @@
+import 'package:donut_shop_ui/pages/donut_main_page.dart';
 import 'package:donut_shop_ui/widgets/bottom_bar.dart';
 import 'package:donut_shop_ui/widgets/donut_side_menu.dart';
 import 'package:flutter/material.dart';
@@ -31,7 +32,7 @@ class DonutShopMain extends StatelessWidget {
 
                 switch (settings.name) {
                   case '/main':
-                    page = Center(child: Text('main'));
+                    page = DonutMainPage();
                     break;
                   case '/favorites':
                     page = Center(child: Text('favorites'));

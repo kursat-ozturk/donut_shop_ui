@@ -10,6 +10,9 @@ void main() {
       ChangeNotifierProvider(
         create: (_) => DonutBottomBarSelectionService(),
       ),
+      ChangeNotifierProvider(
+        create: (_) => DonutService(),
+      ),
     ],
     child: MaterialApp(
       debugShowCheckedModeBanner: false,
