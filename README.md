@@ -1,16 +1,16 @@
 # donut_shop_ui
 
-A new Flutter project.
+Roman Just Codes Flutter Codelabs Project 4
 
-## Getting Started
+- A simple, but well-architected Flutter Application, consisting of: Splash Page, Landing Page, Details Page, Shopping Cart, Favorites Page.
+- Creating Flutter User interfaces with ease
+- Common Flutter Layout strategies using just core widgets
+- Creating custom Flutter widgets and achieve widget composition
+- Creating Dart models to mock up app data
+- Importing network images
+- Using Material Icon fonts
+- State Management using Provider to decouple Business Logic of Components (BLoC)
+- Animations in Flutter using core Animated Widgets and Tweens
+- Stateful and Stateless Widgets
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://github.com/kursat-ozturk/donut_shop_ui/assets/69029656/7539f043-ecb2-4418-8d2f-255af593f744
