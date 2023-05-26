@@ -14,6 +14,9 @@ void main() {
       ChangeNotifierProvider(
         create: (_) => DonutService(),
       ),
+      ChangeNotifierProvider(
+        create: (_) => DonutShoppingCartService(),
+      ),
     ],
     child: MaterialApp(
       debugShowCheckedModeBanner: false,

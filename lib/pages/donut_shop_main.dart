@@ -4,6 +4,7 @@ import 'package:donut_shop_ui/widgets/donut_side_menu.dart';
 import 'package:flutter/material.dart';
 
 import '../models/model.dart';
+import 'donut_shop_cart_page.dart';
 
 class DonutShopMain extends StatelessWidget {
   const DonutShopMain({super.key});
@@ -38,7 +39,7 @@ class DonutShopMain extends StatelessWidget {
                     page = Center(child: Text('favorites'));
                     break;
                   case '/shoppingcart':
-                    page = Center(child: Text('shopping cart'));
+                    page = DonutShoppingCartPage();
                     break;
                   default:
                     page = Center(child: Text('main'));
